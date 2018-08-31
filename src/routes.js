@@ -1,7 +1,7 @@
-import IndexView from "./IndexView";
-import DashboardView from "./DashboardView";
+import IndexLoadable from "./IndexLoadable";
+import DashboardLoadable from "./DashboardLoadable";
 
 export default [
-  ["/", IndexView],
-  ["/dashboard", DashboardView]
+  ["/", IndexLoadable],
+  ["/dashboard", DashboardLoadable]
 ];
